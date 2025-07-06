@@ -1,0 +1,44 @@
+#pragma kernel CSMain
+
+RWTexture2D<float4> Result;
+
+
+float _TextureWidth;
+float _TextureHeight;
+float _HeartScale_X;
+float _HeartScale_Y;
+float _HeartRimThread;
+float _HeartRim;
+float _Time;
+float _YScaleBound;
+
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    // 结果在 -1 到 1 之间才能和心形公式的坐标范围匹配
+    float x = (id.x / _TextureWidth - 0.5f) * 2.0f;
+    float y = (id.y / _TextureHeight - 0.5f) * 2.0f;
+
+    // 调整Y轴，因为在屏幕坐标系中Y通常是朝下的，而数学公式中Y是朝上的
+    y = y * -(_HeartScale_Y + _YScaleBound*sin(_Time)); // 反转Y轴方向，并稍微拉伸一点，让心形更饱满
+    x=x*_HeartScale_X;
+    // 代入心形公式：(x^2 + y^2 - 1)^3 - x^2 y^3 = 0
+    float heartEquation = pow(x*x + y*y - 1.0f, 3.0f) - x*x * pow(y, 3.0f);
+
+    // 设置一个阈值，判断像素是否在心形内部
+    float4 finalColor;
+    if (heartEquation < _HeartRimThread) // 如果计算结果小于阈值，说明是心形的一部分
+    {
+        // 还可以根据 heartEquation 的值做一些边缘柔化效果
+        // 例如，让边缘颜色渐变：lerp(_HeartColor, _BackgroundColor, saturate(heartEquation / threshold));
+        finalColor = float4(1,0,0,1);
+
+    }
+    else // 否则就是背景
+    {
+        finalColor = float4(1,1,1,1);//_BackgroundColor;
+    }
+
+    // 将最终颜色写入结果纹理
+    Result[id.xy] = finalColor;
+}

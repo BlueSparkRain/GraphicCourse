@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: KajiyaHairMat_ShortGlod
+  m_Shader: {fileID: 4800000, guid: 729fedcc65f821347b944f34b0145707, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpTex:
+        m_Texture: {fileID: 2800000, guid: b9d598ba5f57d0049a5535fbe725dfdf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7065f4cad5e96fe44910ddf3d847fc44, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMask:
+        m_Texture: {fileID: 2800000, guid: 83fef43d4b4e93e43bcad78aecfdf650, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularShiftTex:
+        m_Texture: {fileID: 2800000, guid: 172cf33891e63e74295d06bbe347140f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlbedoConstruct: 0.75
+    - _BumpScale: 1.72
+    - _Gloss1: 32
+    - _Gloss2: 247
+    - _HairStyle: 104
+    - _LambertLitness: 0.26
+    - _SecondOffset: 0.99
+    - _Specular1: 0.75
+    - _Specular2: 0.98
+    m_Colors:
+    - _MainColor: {r: 7.0465865, g: 7.0465865, b: 7.0465865, a: 1}
+    - _SpecColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _Tilling_Offset: {r: 3.34, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

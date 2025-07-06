@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "Shell_Fur_GPUInstancing \u8C79\u7EB9"
+  m_Shader: {fileID: 4800000, guid: b77f093fb099e7b42b75c594c746459a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _USEHALFLAMBERT_ON
+  - _USEMOVEXCURL_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpTex:
+        m_Texture: {fileID: 2800000, guid: 2c46c70123e427042a57335bd6861cf3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FurTex:
+        m_Texture: {fileID: 2800000, guid: 7ea4613a734f64446857579b7546187c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b04164def40467c46988bc73fb1bc861, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularShiftTex:
+        m_Texture: {fileID: 2800000, guid: b04164def40467c46988bc73fb1bc861, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlbedoSaturate: 1.2
+    - _AlphaClip: 0.501
+    - _BumpIntensity: 1.35
+    - _DiffuseSmoothness: 0
+    - _FresnelPower: 3.63
+    - _FurAlphaPow: 3.88
+    - _FurCurl: 0.05
+    - _FurLength: 0.04
+    - _HalfLambertShadowLitness: 0.199
+    - _MoveDistance: 0.2
+    - _MoveSpeed: 1
+    - _ShellCount: 29.5
+    - _ShellRimHardness: 1
+    - _SpecularShiftIntensity: 1.61
+    - _UseHalfLambert: 1
+    - _UseMovexCurl: 1
+    - _WindStrength: 1
+    - _specularGloss: 97
+    m_Colors:
+    - _FresnelColor: {r: 93.85369, g: 107.84192, b: 110.130905, a: 1}
+    - _FurColor: {r: 5.9921565, g: 5.9921565, b: 5.9921565, a: 1}
+    - _FurCurlDir: {r: 0, g: 0.1, b: 0, a: 0}
+    - _RootColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 2.9960785, g: 2.6135402, b: 1.6676282, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

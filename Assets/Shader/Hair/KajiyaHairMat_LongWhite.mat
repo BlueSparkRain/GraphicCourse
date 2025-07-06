@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: KajiyaHairMat_LongWhite
+  m_Shader: {fileID: 4800000, guid: 729fedcc65f821347b944f34b0145707, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 10b8cd2a91c5b5541a7ba9dd036e463b, type: 3}
+        m_Scale: {x: 2.8, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpTex:
+        m_Texture: {fileID: 2800000, guid: 8b4d496c77ecbee4a98f56c5552d5397, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7b55ab3adf793b34e82b1942f7705237, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMask:
+        m_Texture: {fileID: 2800000, guid: 339eec374e2bde340ac2ec8628b3b560, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularShiftTex:
+        m_Texture: {fileID: 2800000, guid: 1a05245cf0793c643bb8810ab88aeeae, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlbedoConstruct: 0.28
+    - _BumpScale: 0.13
+    - _Gloss1: 75
+    - _Gloss2: 64
+    - _HairStyle: 48
+    - _LambertLitness: 0.78
+    - _SecondOffset: -0.86
+    - _Specular1: 0.19
+    - _Specular2: 0.3
+    m_Colors:
+    - _MainColor: {r: 1.4980394, g: 1.4980394, b: 1.4980394, a: 1}
+    - _SpecColor1: {r: 7.0647473, g: 7.7793965, b: 15.282926, a: 1}
+    - _SpecColor2: {r: 22.894424, g: 22.894424, b: 22.894424, a: 1}
+    - _Tilling_Offset: {r: 6, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

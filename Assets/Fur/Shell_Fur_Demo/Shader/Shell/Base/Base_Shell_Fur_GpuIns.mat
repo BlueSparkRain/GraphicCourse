@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Base_Shell_Fur_GpuIns
+  m_Shader: {fileID: 4800000, guid: be16ab5736ad32545b8a3fec45edd410, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _FresnelColor _FurTex
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpTex:
+        m_Texture: {fileID: 2800000, guid: 2c46c70123e427042a57335bd6861cf3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FurTex:
+        m_Texture: {fileID: 2800000, guid: 7ea4613a734f64446857579b7546187c, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpIntensity: 0.69
+    - _FresnelPower: 1.6
+    - _FurAlphaPow: 2.17
+    - _FurLength: 0.53
+    - _ShellCount: 118.12
+    m_Colors:
+    - _FresnelColor: {r: 31.626799, g: 31.626799, b: 31.626799, a: 1}
+    - _FurColor: {r: 7.906698, g: 4.4435115, b: 4.0030766, a: 1}
+    - _RootColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

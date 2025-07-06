@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fin_Fur
+  m_Shader: {fileID: 4800000, guid: ce959fca755e90447881834e3c057be3, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _CURL_ON
+  - _DRAWORIMESH_ON
+  - _WIND_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpTex:
+        m_Texture: {fileID: 2800000, guid: adc9f852563dfa645998af0e7d1d1ba3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FurTex:
+        m_Texture: {fileID: 2800000, guid: b213ce7840c5df14d8a09a0f8c909e95, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a360a2f37924c764aa0dda1f3c1c5e96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularShiftTex:
+        m_Texture: {fileID: 2800000, guid: b04164def40467c46988bc73fb1bc861, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AOIntensity: 0.27
+    - _AlbedoSaturate: 0.95
+    - _AlphaCutout: 0.263
+    - _BumpIntensity: 1.43
+    - _CURL: 1
+    - _DiffuseSmoothness: 0
+    - _DrawOriMesh: 1
+    - _FaceNormalFactor: 0
+    - _FaceViewThresh: 1
+    - _FinJointNum: 15
+    - _FinLength: 0.2
+    - _FinRandomDirIntensity: 0.029
+    - _FresnelPower: 5.45
+    - _FurCurl: 100
+    - _FurDensity: 40
+    - _FurHeight: 0.03
+    - _InsideTessFactorIntensity: 20
+    - _MoveFactor: 0.03
+    - _NormalCurlFactor: 3.14
+    - _Occlusion: 1
+    - _SpecularShiftIntensity: 2.84
+    - _TessFactor: 5
+    - _TessMaxDist: 10
+    - _TessMinDist: 1
+    - _Wind: 1
+    - _specularGloss: 256
+    m_Colors:
+    - _BaseMove: {r: 0.1, g: 0.4, b: 0.3, a: 0}
+    - _FresnelColor: {r: 11.984314, g: 10.928291, b: 8.630213, a: 1}
+    - _FurColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RootColor: {r: 0.29559743, g: 0.29559743, b: 0.29559743, a: 1}
+    - _SpecularColor: {r: 4.2370944, g: 1.7322328, b: 0, a: 1}
+    - _WindFreq: {r: 0.5, g: 0.7, b: 0.3, a: 0}
+    - _WindMove: {r: 0.15, g: 0.1, b: 0.1, a: 2}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
